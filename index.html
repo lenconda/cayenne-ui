@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <title>Cayenne Theme</title>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -59,6 +60,8 @@
             <button type="button" class="btn btn-info">Info</button>
             <button type="button" class="btn btn-warning">Warning</button>
             <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-dark">Dark</button>
             <button type="button" class="btn btn-link">Link</button>
           </p>
 
@@ -69,16 +72,18 @@
             <button type="button" class="btn btn-info disabled">Info</button>
             <button type="button" class="btn btn-warning disabled">Warning</button>
             <button type="button" class="btn btn-danger disabled">Danger</button>
+            <button type="button" class="btn btn-light disabled">Light</button>
+            <button type="button" class="btn btn-dark disabled">Dark</button>
             <button type="button" class="btn btn-link disabled">Link</button>
           </p>
 
           <p class="bs-component">
             <button type="button" class="btn btn-outline-primary">Primary</button>
-            <button type="button" class="btn btn-outline-secondary">Secondary</button>
             <button type="button" class="btn btn-outline-success">Success</button>
             <button type="button" class="btn btn-outline-info">Info</button>
             <button type="button" class="btn btn-outline-warning">Warning</button>
             <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
           </p>
 
           <div class="bs-component">
@@ -122,6 +127,30 @@
               <button type="button" class="btn btn-danger">Danger</button>
               <div class="btn-group" role="group">
                 <button id="btnGroupDrop4" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-light">Light</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop5" type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+              <button type="button" class="btn btn-dark">Dark</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupDrop6" type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false"></button>
                 <div class="dropdown-menu" aria-labelledby="btnGroupDrop4">
                   <a class="dropdown-item" href="#">Dropdown link</a>

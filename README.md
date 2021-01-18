@@ -4,7 +4,7 @@ An energetic theme for Bootstrap 4. Powered by [HackerThemes](https://hackerthem
 
 ## Looking
 
-
+![screenshot](screenshot.jpg)
 
 ## Prerequisites
 

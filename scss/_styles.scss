@@ -33,6 +33,16 @@ $text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) !default;
     border-color: $gray-200;
     color: $gray-200;
   }
+
+  &-group > .btn {
+    cursor: pointer;
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .btn-#{$color} {
+    border-color: darken($value, 4);
+  }
 }
 
 // Typography ==================================================================

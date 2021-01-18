@@ -153,7 +153,7 @@ $text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) !default;
   &:not(:disabled):not(.disabled).active,
   .show > &.dropdown-toggle {
     color: $color;
-    background-color: darken($outline-btn-background-color, 3);
+    background-color: darken($outline-btn-background-color, 4);
     border-color: $outline-btn-border-color;
 
     &:focus {
@@ -173,4 +173,12 @@ $outline-theme-colors: map-remove($theme-colors, "secondary", "light");
   .btn-outline-#{$color} {
     @include custom-button-outline-variant($value);
   }
+}
+
+.dropdown-menu {
+  box-shadow: $dropdown-box-shadow;
+}
+
+*, .btn, .form-control {
+  font-weight: 300;
 }

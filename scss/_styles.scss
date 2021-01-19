@@ -30,6 +30,7 @@ $text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) !default;
   }
 
   &.btn-secondary,
+  &.btn-default,
   &.btn-secondary:active,
   &.btn-secondary.active,
   &.btn-secondary:focus,
@@ -37,6 +38,20 @@ $text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05) !default;
   &.btn-secondary:not(:disabled):not(.disabled).active,
   .show > &.btn-secondary.dropdown-toggle {
     color: $primary;
+  }
+
+  &.btn-default:not(:disabled):active,
+  &.btn-default:not(:disabled).active {
+    color: $gray-800;
+    border: 1px solid darken($gray-300, 4);
+    background-color: $gray-300;
+  }
+
+  &.btn-default.disabled:active,
+  &.btn-default.disabled.active {
+    color: $primary;
+    border-color: transparent;
+    background-color: inherit;
   }
 
   &.btn-outline-secondary {

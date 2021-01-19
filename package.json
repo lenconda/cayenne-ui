@@ -21,7 +21,8 @@
     "popper.js": "^1.14.4"
   },
   "devDependencies": {
-    "autoprefixer": "*",
+    "postcss-cli": "^7.1.0",
+    "autoprefixer": "^9.7.5",
     "gulp": "^4.0.0",
     "gulp-clean-css": "^4.0.0",
     "gulp-postcss": "^8.0.0",

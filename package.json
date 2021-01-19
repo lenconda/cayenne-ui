@@ -1,6 +1,6 @@
 {
   "name": "@cayenne-ui/css",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A customized theme for Bootstrap 4",
   "repository": "https://github.com/lenconda/cayenne-ui-css.git",
   "main": "index.js",
@@ -35,6 +35,7 @@
     "dist",
     "package.json",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "scss"
   ]
 }

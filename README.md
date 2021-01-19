@@ -1,6 +1,10 @@
 # Cayenne Bootstrap Theme
 
-An energetic theme for Bootstrap 4. Powered by [HackerThemes](https://hackerthemes.com). Name is inspired by Porsche Cayenne, the car.
+![Circle CI Build](https://circleci.com/gh/lenconda/cayenne-ui-css.svg?style=svg)
+![License](https://img.shields.io/github/license/lenconda/cayenne-ui-css)
+![GitHub Version](https://img.shields.io/github/package-json/v/lenconda/cayenne-ui-css)
+
+An elegant theme for Bootstrap 4, powered by [HackerThemes](https://hackerthemes.com). Name is inspired by Porsche Cayenne.
 
 ## Looking
 

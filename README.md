@@ -6,6 +6,24 @@ An energetic theme for Bootstrap 4. Powered by [HackerThemes](https://hackerthem
 
 ![screenshot](screenshot.jpg)
 
+## Installation
+
+By NPM:
+
+```bash
+npm install @cayenne-ui/css --save
+```
+
+or by Unpkg CDN:
+
+```html
+<!-- normal css -->
+<link rel="stylesheet" href="https://unpkg.com/@cayenne-ui/css@latest/dist/css/cayenne.css" />
+
+<!-- minimized css -->
+<link rel="stylesheet" href="https://unpkg.com/@cayenne-ui/css@latest/dist/css/cayenne.min.css" />
+```
+
 ## Prerequisites
 
 - This works on Windows, macOS and Linux.
@@ -42,6 +60,6 @@ An energetic theme for Bootstrap 4. Powered by [HackerThemes](https://hackerthem
 
 ## Copyright and license
 
-Code and documentation copyright 2021 [Cayenne](https://hackerthemes.com).
+Code and documentation copyright 2021 [Lenconda](https://lenconda.top).
 
 Code released under the [MIT License](https://opensource.org/licenses/MIT).

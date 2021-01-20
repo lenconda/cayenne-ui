@@ -58,6 +58,9 @@ $dropdown-link-active-bg: $dropdown-link-hover-bg;
 $input-group-addon-bg: darken($gray-100, 1.5%);
 $input-disabled-bg: darken($gray-100, 1.5%);
 $modal-content-border-radius: $border-radius;
+$badge-bg-level: -9;
+$badge-color-level: 8;
+$badge-border-level: -7;
 
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/mixins';

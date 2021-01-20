@@ -166,18 +166,19 @@ $custom-input-active-box-shadow: inset 0 0 2px $gray-700;
 
 @mixin custom-button-outline-variant($color, $color-hover: color-yiq($color), $active-background: $color, $active-border: $color) {
   $outline-btn-border-color: rgba(27, 31, 35, .15);
-  $outline-btn-background-color: #f3f4f6;
+  $outline-btn-background-color: #fafbfc;
   $color-btn-shadow: 0 1px 0 rgba(27, 31, 35, .04);
   $color-btn-inset-shadow: inset 0 1px 0 hsla(0, 0%, 100%, .25);
 
   color: $color;
   border-color: $outline-btn-border-color;
   box-shadow: $color-btn-shadow, $color-btn-inset-shadow;
+  background-color: $outline-btn-background-color;
 
   @include hover {
     color: $color;
-    background-color: $outline-btn-background-color;
-    border-color: darken($outline-btn-border-color, 1);
+    background-color: darken($outline-btn-background-color, 2);
+    border-color: darken($outline-btn-border-color, 2);
   }
 
   &:focus,
@@ -196,7 +197,7 @@ $custom-input-active-box-shadow: inset 0 0 2px $gray-700;
   .show > &.dropdown-toggle {
     color: $color;
     background-color: darken($outline-btn-background-color, 4);
-    border-color: $outline-btn-border-color;
+    border-color: darken($outline-btn-border-color, 4);
 
     &:focus {
       // Avoid using mixin so we can pass custom focus shadow properly

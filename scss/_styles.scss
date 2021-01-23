@@ -229,7 +229,8 @@ $outline-theme-colors: map-remove($theme-colors, "secondary", "light");
 
     &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active,
-    .show > &.dropdown-toggle {
+    .show > &.dropdown-toggle,
+    .show > &.dropdown-toggle:focus:hover {
       background: darken($value, 6);
       border-color: darken($value, 8);
     }

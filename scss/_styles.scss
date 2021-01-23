@@ -223,13 +223,15 @@ $outline-theme-colors: map-remove($theme-colors, "secondary", "light");
     box-shadow: $color-btn-shadow;
 
     &:not(:disabled):not(.disabled):hover {
-      background: darken($value, 4);
+      background: lighten($value, 4);
+      border-color: darken($value, 1);
     }
 
     &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled).active,
     .show > &.dropdown-toggle {
-      background: darken($value, 10);
+      background: darken($value, 6);
+      border-color: darken($value, 8);
     }
   }
 }

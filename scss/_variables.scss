@@ -70,3 +70,4 @@ $badge-border-level: -7;
 $input-btn-focus-box-shadow: inset 0 0 0 $input-btn-focus-width $input-btn-focus-color;
 $pagination-focus-box-shadow: $btn-focus-box-shadow;
 $dropdown-link-active-color: $dropdown-color;
+$dropdown-link-active-bg: darken($dropdown-link-hover-bg, 4);
